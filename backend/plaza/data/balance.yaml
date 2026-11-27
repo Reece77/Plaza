@@ -1,0 +1,13 @@
+# Tunables (TST ADR-0008). Every number has a unit and an intent; all are balance-tuned
+# fictions (ADR PL-0008 section 2).
+start:
+  # cents (2006 USD); the breakaway crew's small dirty-cash stake (questions 16). The clean
+  # book starts empty.
+  dirty_stake_cents: 10000000
+laundering:
+  # ADR PL-0003 section 2: clean = dirty x (1 - fee) - leakage. Data now, used from PL-M4.
+  fee_bp: 1500  # basis points of each laundered amount kept by the front as its fee
+  leakage_bp: 500  # basis points lost on the way across the bridge
+backups:
+  every_turns: 12  # months between periodic backups (TST ADR-0004 section 5)
+  keep_periodic: 10  # periodic backups kept per save
