@@ -1,0 +1,27 @@
+# Scenarios (ADR PL-0002 section 1: turn 0 is data). start_ym is the month of turn 0.
+scenarios:
+  - id: standard
+    name: Standard campaign
+    description: >-
+      A lieutenant breaks away in January 2006 with a small crew and a small stake of dirty
+      cash. Thirty years, to December 2035.
+    start_ym: [2006, 1]
+    campaign_turns: 360  # months: January 2006 to December 2035 (ADR PL-0002 section 1)
+default_scenario: standard
+
+# Difficulty levels (ADR PL-0011; questions 6). They will set the agency's budget, rival
+# aggression and informant odds as those systems arrive; at PL-M0 they are recorded only.
+difficulties:
+  - { id: lieutenant, name: Lieutenant, description: "A forgiving start: a slower state and calmer rivals." }
+  - { id: boss, name: Boss, description: "The intended balance." }
+  - { id: kingpin, name: Kingpin, description: "A sharper state and hungrier rivals." }
+default_difficulty: boss
+
+# The leader's background (spec 2.1). Each lean takes effect with the system it touches,
+# from PL-M1a onward; at PL-M0 the choice is recorded only.
+backgrounds:
+  - { id: smuggler, name: Smuggler, lean: "Logistics skills, a route partner, lower transit risk." }
+  - { id: producer, name: Producer, lean: "Production skills, a better first site." }
+  - { id: enforcer, name: Enforcer, lean: "Security skills, higher control, more heat." }
+  - { id: accountant, name: Accountant, lean: "Finance skills, a first front, lower laundering loss." }
+  - { id: fixer, name: Fixer, lean: "Influence skills, a contact in local politics, more council confidence." }
