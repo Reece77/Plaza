@@ -1,0 +1,47 @@
+# Adapted from Partner Track's nightly.yml: the long runs, every night and on demand from the
+# Actions tab (`workflow_dispatch` on a branch). At PL-M0 the only nightly test is the
+# 360-turn headless campaign for seeds 1-10; balance runs join at PL-M10.
+name: nightly
+
+on:
+  schedule:
+    - cron: "23 5 * * *" # 05:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  # Skip the scheduled run when `main` has not changed in the last 25 hours (TST's rule).
+  changed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 50
+      - id: check
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then echo "run=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          n=$(git log --since="25 hours ago" --oneline | wc -l)
+          echo "commits on main in the last 25 hours: $n"
+          if [ "$n" -gt 0 ]; then echo "run=true" >> "$GITHUB_OUTPUT"; else echo "run=false" >> "$GITHUB_OUTPUT"; fi
+
+  nightly:
+    needs: changed
+    if: needs.changed.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+          cache-dependency-glob: backend/uv.lock
+      - run: uv sync --project backend --locked
+      - run: make nightly

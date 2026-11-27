@@ -1,0 +1,31 @@
+# Chart of accounts by book (ADR PL-0003 section 6). Codes are stable: never renumber or
+# reuse one; each later milestone appends the accounts it posts to. Dirty-book codes start
+# with D and clean-book codes with C (plaza.sim.data_models.Account checks it). Amounts are
+# integer cents; debit positive. Types: asset, liability, equity, income, cost.
+accounts:
+  # --- dirty book: every trafficking income and cost ---
+  - { code: D1000_cash, name: "Dirty cash", type: asset, book: dirty }
+  - { code: D1100_product_inventory, name: "Product inventory", type: asset, book: dirty }
+  - { code: D1200_sites, name: "Sites", type: asset, book: dirty }
+  - { code: D1300_distributor_receivables, name: "Receivables from distributors", type: asset, book: dirty }
+  - { code: D2000_owed_to_suppliers, name: "Owed to suppliers", type: liability, book: dirty }
+  - { code: D2100_financier_loans, name: "Loans from financiers", type: liability, book: dirty }
+  - { code: D3000_leader_equity, name: "Leader's equity", type: equity, book: dirty }
+  - { code: D4000_sales, name: "Sales (by market)", type: income, book: dirty }
+  - { code: D4100_plaza_tax, name: "Plaza tax", type: income, book: dirty }
+  - { code: D5000_payroll, name: "Payroll", type: cost, book: dirty }
+  - { code: D5100_supply, name: "Supply", type: cost, book: dirty }
+  - { code: D5200_logistics, name: "Logistics", type: cost, book: dirty }
+  - { code: D5300_protection, name: "Protection", type: cost, book: dirty }
+  - { code: D5400_tribute, name: "Tribute", type: cost, book: dirty }
+  - { code: D5500_losses, name: "Losses (seizures and theft)", type: cost, book: dirty }
+  - { code: D5900_laundered_out, name: "Sent to the clean book", type: cost, book: dirty }
+  # --- clean book: fronts, legitimate assets, the leader's lawful wealth ---
+  - { code: C1000_cash, name: "Clean cash", type: asset, book: clean }
+  - { code: C1100_fronts, name: "Fronts", type: asset, book: clean }
+  - { code: C1200_legitimate_assets, name: "Legitimate assets", type: asset, book: clean }
+  - { code: C3000_leader_equity, name: "Leader's lawful equity", type: equity, book: clean }
+  - { code: C4000_front_revenue, name: "Front revenue", type: income, book: clean }
+  - { code: C4900_laundered_in, name: "Received from the dirty book", type: income, book: clean }
+  - { code: C5000_front_costs, name: "Front costs", type: cost, book: clean }
+  - { code: C5500_losses, name: "Losses (assets seized with a court record)", type: cost, book: clean }

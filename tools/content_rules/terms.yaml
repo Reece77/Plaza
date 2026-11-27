@@ -1,0 +1,30 @@
+# The maintained list of out-of-bounds terms and patterns (ADR PL-0008 section 6). Reviewed by
+# Reece at each milestone's merge. Every rule is a case-insensitive Python regular expression
+# with a stable id, the PL-0008 clause it enforces and a one-line reason.
+#
+# The list names vocabulary that only appears in procedural or graphic text; it never lists
+# real reagents, equipment for a real process, or real people (that would itself break
+# PL-0008 sections 2 and 3). The real-name check belongs to the LLM validator (PL-M8).
+#
+# A line that must keep a matched word for a reason the rules did not foresee carries
+# `content-rules-allow: <rule id> <why>` on the same line; every such marker is reviewed.
+rules:
+  # --- section 2: synthesis routes, reaction steps or conditions ---
+  - { id: lab-operation, clause: "2", pattern: '\b(reflux(ed|ing)?|distil(l|led|ling|lation|late)|recrystalli[sz](e|ed|ing|ation)|titrat(e|ed|ing|ion)|filtrate|precipitat(e|ed|ing|ion))\b', reason: "laboratory operations describe a process" }
+  - { id: reaction-chemistry, clause: "2", pattern: '\b(stoichiometr\w*|hydrogenat\w*|reductive amination|methylat(e|ed|ion)|acetylat(e|ed|ion)|reaction (temperature|time|mixture|vessel))\b', reason: "reaction chemistry describes a route" }
+  - { id: physical-constants, clause: "2", pattern: '\b(boiling|melting|flash) point\b', reason: "process conditions" }
+  - { id: lab-equipment, clause: "2", pattern: '\b(separatory funnel|condenser|round[- ]bottom(ed)? flask|erlenmeyer|beakers?|fume hood|hot ?plate|glassware|pill press(es)?)\b', reason: "equipment named for a process" }
+  # --- section 2: real ratios, yields or quantities ---
+  - { id: lab-quantity, clause: "2", pattern: '\b\d+(\.\d+)?\s?(mg|g|grams?|ml|mL|millilit(re|er)s?|mmol|mol|moles?)\b', reason: "laboratory-scale quantities" }
+  - { id: temperature, clause: "2", pattern: '\d+\s?°\s?[cf]\b|\b\d+\s?degrees? (celsius|fahrenheit|c|f)\b', reason: "process temperatures" }
+  - { id: yield-figure, clause: "2", pattern: '\byield(s|ed)? (of )?(about |around )?\d|\d+(\.\d+)?\s?% yield\b', reason: "real yields" }
+  - { id: ratio, clause: "2", pattern: '\b\d+\s?:\s?\d+\s?(ratio|molar|by (weight|volume|mass))\b', reason: "real ratios" }
+  # --- section 2: concealment or laundering techniques detailed enough to work ---
+  - { id: deposit-structuring, clause: "2", pattern: '\b(smurf(s|ing)?|structur(e|ed|ing) (the |cash )?deposits)\b|\b(below|under|beneath) the (cash )?reporting threshold\b', reason: "a laundering technique" }
+  - { id: trade-invoicing, clause: "2", pattern: '\b(over|under)-?invoic\w*\b', reason: "a laundering technique" }
+  - { id: concealment, clause: "2", pattern: '\b(hidden|false|secret|trap) (compartments?|floors?|panels?)\b|\bmask(s|ed|ing)? the (scent|smell|odou?r)\b', reason: "a concealment technique" }
+  # --- section 4: violence is an outcome, never a depicted scene; no torture ---
+  - { id: torture, clause: "4", pattern: '\btortur(ed|es|ing|er|ers)\b|(?<!no )\btorture\b', reason: "no torture" }
+  - { id: graphic-violence, clause: "4", pattern: '\b(behead\w*|decapitat\w*|dismember\w*|mutilat\w*|disembowel\w*|gory|gore|blood-?soaked|bloodied|bled out)\b', reason: "a depicted scene of violence" }
+  # --- section 4: no harm to children ---
+  - { id: harm-to-children, clause: "4", pattern: '\bchild (soldiers?|labou?r|couriers?)\b|\bunderage\b|(?<!no )\b(kill\w*|shoot\w*|shot|hurt\w*|harm\w*|recruit\w*|abduct\w*)\b[^.]{0,20}\b(child|children|minors?|kids?)\b|\b(child|children|minors?|kids?)\b[^.]{0,30}\b(were|was|are|is|been) (killed|shot|hurt|harmed|recruited|abducted)\b', reason: "no harm to children" }

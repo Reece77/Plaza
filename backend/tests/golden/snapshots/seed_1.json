@@ -1,0 +1,1117 @@
+[
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "992a5b80186dc95f59b40418157b9b328eb3d5dbd77254eb916df94c7a467136",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 11
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "45e748926081751f98215afcec6ae09981e53c666d4a605b4d119ac1bb881f85",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 23
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "cdcaa226c9bd71ceeaa6cb3515070a50d0254ebba1c6f063230b7714bb5505d0",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 35
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "d1ee5d87fad76c158acd49161cc564dd572f5b2062cfde9bbb357b5b2cbd4de9",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 47
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "dfbc31d4a043e0744113096291a84882c881eba55a3cc8c52ca8019086f0542b",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 59
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "b5a382504ce42e01ba02690637b5a8482b7b545803705573b259fd489c4bb7e4",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 71
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "b924580ec8c0b731657904013b06670756ac56f8707b8668363ab83ea9508958",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 83
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "4a4ea2ff0242a87dec94eb00b10a34fede3d3b1bccab024de88d49cb1cc57802",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 95
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "ac83d7a422ae6d7bef55ec3067fe6ac6725a757603b5e9b6024d670d198a931b",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 107
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "d0b825130cc987848e6a732792fc125873b34001eea60990606ef05ea6cb6612",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 119
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "3624938de45640ab8afd12189b6295b33340499eac70498d9ca7043559bea1d4",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 131
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "f4185a7134e50f33b4a2c1fe22eeb9af584fd25f2440fd96a6b40ba0e3c9b5e3",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 143
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "b43407549e3deb6313b90e4aa6f06e31310a30827081fc1788c886d57544923a",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 155
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "c276d7aefffdaa09e3253d43098ef39d62b83e346412b414bf00ec0764044735",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 167
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "380eb6ce13d9ce2a526c6b6567bba54d10976eaccdb47a0597cf31f869354761",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 179
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "c72c428e1581ea372e0294c55e0be6786f488e7e68e7f21236be58b4fcea1e17",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 191
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "e67eaadd5d7f4dda5d251c1f53c5dbb5fa9d6ced7bf402cb29a3059549e55570",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 203
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "98c31f9b928cf9bd5e69a9ac2d34e63796b653a9ff456dc673bf7cce41f9147d",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 215
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "61508b2fe3db0da82567210b87c8d041d26d4aa8b948121eb15f00fab28ad707",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 227
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "0ba548519544a87cecc85529dd198d8589cee40f20fb0642f83ef5b11c4c8a2e",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 239
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "b84eb22b6e6c87011a747c5d8910a0eef6851e96af88a2da33945e80386f902a",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 251
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "b5df90c8fabdde8820bb097d674b5e25657a053d65dd15a245b96174e29a1a8d",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 263
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "06eddc9ae67bd2bf375e31a42a8f91bff25e40f87c8aa697a8b74cb840281e2c",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 275
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "2c609873684b90f55248b9cdb1312f3b8d1fff478b2d63100505ecccd42ab575",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 287
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "2ce25aecc641a456e7629cf898dea2ce478edb9b03ce3c36ba4dc21bf7f6d6e3",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 299
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "671ce9f9b443c2cd51b481635ae4c2d0f447513353e4b1985b29182fcfb3fb0f",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 311
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "ec65b4e7fdbc639f45e454fb1cc7a30587e8ef3baed64e39d015531f3408558f",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 323
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "cb484de789e5c48c936fee77241854e5dd906864db0326759513ce98de68f32f",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 335
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "cc2cfe58106625233dfeba3afbd2a90514730aad364974004b9a9fc0a5c386ed",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "4cd718188b1719ca85c9e6c38c014469bf1ff2614dd82c2891adafe75f638a1c"
+  },
+  "turn": 347
+ },
+ {
+  "balances": [
+   [
+    1,
+    "D1000_cash",
+    "USD",
+    10000000
+   ],
+   [
+    1,
+    "D3000_leader_equity",
+    "USD",
+    -10000000
+   ]
+  ],
+  "digest": "3fc8921ab623ae9659700121c2ae65e7bedca5d9f8420bf5b4e98f1e8a0f132e",
+  "kpis": [
+   [
+    1,
+    [
+     [
+      "clean_cash_cents",
+      0
+     ],
+     [
+      "dirty_cash_cents",
+      10000000
+     ]
+    ]
+   ]
+  ],
+  "subs": {
+   "organisation": "441145382d9fb819e618fea69c3b747880cdca657b0577edf4d0d890b00df849",
+   "save": "2997f41c60bc943d3bbec08e0b876712aa8e888935fc06ba792d9a4b66bf3e96"
+  },
+  "turn": 359
+ },
+ {
+  "final_turn": 360,
+  "sha256": "1cab0e7fc077ef12872491f17e7ab3c21d4a2c80d36d783d97de490f6f36c649",
+  "status": "campaign_complete"
+ }
+]
