@@ -14,8 +14,10 @@ rules:
   - { id: reaction-chemistry, clause: "2", pattern: '\b(stoichiometr\w*|hydrogenat\w*|reductive amination|methylat(e|ed|ion)|acetylat(e|ed|ion)|reaction (temperature|time|mixture|vessel))\b', reason: "reaction chemistry describes a route" }
   - { id: physical-constants, clause: "2", pattern: '\b(boiling|melting|flash) point\b', reason: "process conditions" }
   - { id: lab-equipment, clause: "2", pattern: '\b(separatory funnel|condenser|round[- ]bottom(ed)? flask|erlenmeyer|beakers?|fume hood|hot ?plate|glassware|pill press(es)?)\b', reason: "equipment named for a process" }
-  # --- section 2: real ratios, yields or quantities ---
-  - { id: lab-quantity, clause: "2", pattern: '\b\d+(\.\d+)?\s?(mg|g|grams?|ml|mL|millilit(re|er)s?|mmol|mol|moles?)\b', reason: "laboratory-scale quantities" }
+  # --- section 2: real ratios and yields ---
+  # Quantities are not linted (Reece, 2026-11-28): shipment sizes, seizures and prices per
+  # unit are game numbers, and every one is a balance-tuned fiction; the milestone reviewer
+  # checks data files for real figures (PL-0008 section 6).
   - { id: temperature, clause: "2", pattern: '\d+\s?°\s?[cf]\b|\b\d+\s?degrees? (celsius|fahrenheit|c|f)\b', reason: "process temperatures" }
   - { id: yield-figure, clause: "2", pattern: '\byield(s|ed)? (of )?(about |around )?\d|\d+(\.\d+)?\s?% yield\b', reason: "real yields" }
   - { id: ratio, clause: "2", pattern: '\b\d+\s?:\s?\d+\s?(ratio|molar|by (weight|volume|mass))\b', reason: "real ratios" }

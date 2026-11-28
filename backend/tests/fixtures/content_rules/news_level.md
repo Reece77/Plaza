@@ -8,6 +8,8 @@ precursors as named in public control lists, real geography, dated policy shocks
 - Methamphetamine requires a scheduled precursor; the supply graph links them by "requires".
 - Imported cannabis demand falls about 10–15% a year after each legalisation wave.
 - Fentanyl unlocks in 2013 with extreme heat.
+- A named shipment of 400 kg crossed in March; the street price index sat near $90 per 1 g,
+  and a 2 g sale is the market's smallest unit (all balance-tuned fictions).
 - A war between two organisations ended in a truce; two plazas changed hands and heat rose.
 - The council voted to raise tribute to 20%; the motion passed 5 to 4.
 - Seizures at the border rose; an outcome, never a scene. No torture; no harm to children.
