@@ -7,7 +7,6 @@ setting, so the fixture itself carries no out-of-bounds content.
 - reaction-chemistry: Note the reaction temperature on the recipe card.
 - physical-constants: Water's boiling point is a classroom fact.
 - lab-equipment: Wash the glassware after the cooking class.
-- lab-quantity: Add 5 g of sugar to the tea.
 - temperature: Bake the bread at 200 °C.
 - yield-figure: The sourdough recipe has a yield of 2 loaves.
 - ratio: Mix flour and water in a 2:1 ratio by weight.
